@@ -8,7 +8,7 @@ export default function (eleventyConfig) {
   return {
     dir: {
       input: "website",
-      output: "_site",
+      output: "docs",
       includes: "_includes",
       layouts: "_layouts",
     },
