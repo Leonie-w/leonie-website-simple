@@ -1,18 +1,18 @@
 @font-face {
   font-family: segoeui;
-  src: url(/src/fonts/segoeui.woff2);
+  src: url(src/fonts/segoeui.woff2);
 }
 
 @font-face {
   font-family: segoeui;
   font-weight: bold;
-  src: url(/src/fonts/segoeui_bold.woff2);
+  src: url(src/fonts/segoeui_bold.woff2);
 }
 
 @font-face {
   font-family: segoeui;
   font-style: italic;
-  src: url(/src/fonts/segoeui_italic.woff2);
+  src: url(src/fonts/segoeui_italic.woff2);
 }
 
 html,

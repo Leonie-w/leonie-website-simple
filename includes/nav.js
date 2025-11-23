@@ -3,7 +3,7 @@ class MyNav extends HTMLElement {
     const current = this.getAttribute("current");
     this.innerHTML = `
         <header>
-		    <h1 class="leonie"><a href="/">LEONIE WIMMER</a></h1>
+		    <h1 class="leonie"><a href="index.html">LEONIE WIMMER</a></h1>
 			<nav>
 				<a class="nav-link ${!current || current === "singlepage" ? "active" : ""}" href="index.html"> work </a>
 				<a class="nav-link ${current === "about-me" ? "active" : ""}" href="about-me.html"> about me </a>
